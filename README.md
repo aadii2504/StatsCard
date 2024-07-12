@@ -22,6 +22,10 @@ This project includes a React component named `BasketballPlayerCard` which displ
 ```bash
 npm install
 ```
+![image](https://github.com/user-attachments/assets/57829978-598a-4ffd-8a71-37a68847e531)
+
+
+
 
 
 
