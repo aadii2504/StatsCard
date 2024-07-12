@@ -1,0 +1,69 @@
+.player-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 16px auto;
+    padding: 26px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .player-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .player-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 12px;
+  }
+  
+  .player-name {
+    font-size: 1.5em;
+    margin: 8px 0;
+    color: #333;
+  }
+  
+  .player-position {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 12px;
+  }
+  
+  .player-stats {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .player-stats p {
+    margin: 4px 0;
+  }
+  
+  @media (max-width: 600px) {
+    .player-card {
+      padding: 12px;
+      max-width: 100%;
+    }
+  
+    .player-image {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .player-name {
+      font-size: 1.2em;
+    }
+  
+    .player-position {
+      font-size: 1em;
+    }
+  
+    .player-stats {
+      font-size: 0.9em;
+    }
+  }
+  
