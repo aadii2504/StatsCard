@@ -15,4 +15,17 @@ This project includes a React component named `BasketballPlayerCard` which displ
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/aadii2504/StatsCard.git
+
+
+## Install the dependencies:
+```bash
+npm install
+```
+
+
+
+## Running the Project: 
+To run the project locally, use the following command:
+```bash
+npm run dev
